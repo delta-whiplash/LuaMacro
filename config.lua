@@ -1,3 +1,6 @@
+print('Version: ' .. lmc.version)
+lmc.minimizeToTray = true
+lmc_minimize()
 -- assign logical name to macro keyboard
 -- lmc_print_devices()  -- To get the ID of your keyboard
 lmc_device_set_name('MACROS', '381898C3')
